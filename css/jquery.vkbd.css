@@ -1,0 +1,142 @@
+.ui-keypad {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 1280px;
+    margin: 0;
+    padding:0;
+    z-index: 1000;
+}
+
+.ui-keypad-select-keypad {
+	width: 120px;
+	display:inline-block;
+	height: 100px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+.ui-keypad-common-button {
+	vertical-align: top;
+	text-align: right;
+	width: 150px;
+	display: inline-block;
+}
+
+.ui-keypad-main-keypad-panel {
+	display: inline-block;
+	vertical-align: top;
+	width: 960px;
+}
+.ui-keypad-speed-dial-panel {
+}
+
+.ui-keypad-group-btn-left {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    margin-right: 0px;
+    border: none;
+    color: #fff;
+}
+
+.ui-keypad-group-btn-right {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    margin-left: 0px;
+    border: none;
+}
+
+
+.ui-keypad-button-panel {
+	float: left;
+    padding: 6px 0 0;
+    bottom: 0;
+    user-select: none;
+    z-index: 1050;
+}
+
+.ui-keypad-button-row {
+    position: relative;
+}
+.ui-keypad-navbar {
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%,
+    from(rgb(0, 0, 0)),
+    color-stop(0.02, rgb(84, 84, 84)),
+    color-stop(0.04, rgb(59, 59, 59)),
+    color-stop(0.5, rgb(29, 29, 29)),
+    color-stop(0.51, rgb(0, 0, 0)), to(rgb(0, 0, 0)));
+    line-height: 0;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.ui-keypad-navbar button {
+    color: #eee;
+    text-shadow: 1px 1px 3px #999;
+	cursor: pointer;
+	position: relative;
+}
+
+.ui-keypad-navbar button.ui-keypad-btn-blue {
+	position: absolute;
+	right: 0;
+}
+.ui-keypad-button {
+    user-select: none;
+    margin: 0 5px 5px 0;
+    text-align: center;
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    border: 1px solid #f9f9f9;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-box-align: center;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+
+}
+.ui-keypad-button p{
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.ui-keypad-button-active {
+	line-height: 80px;
+    font-size: 70px;
+    border-bottom: none;
+}
+.ui-keypad-balloon-base {
+    width: 40px;
+    height: 40px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    border: 1px 0px 1px 1px solid #f9f9f9;
+}
+.ui-keypad-balloon {
+    width: 40px;
+    height:0px;
+    line-height:0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid rgb(194,194,194);
+}
+
+.clearfix {
+	clear: both;
+}
